@@ -1,4 +1,4 @@
-fn data_structures() {
+pub fn data_structures() {
     // Array
     let mut array = [1, 2, 3, 4, 5];
 
@@ -44,6 +44,4 @@ fn data_structures() {
     // Tuples: A fixed-size sequence of elements of different types
     let tuple = (1, "hello", true);
     let (a, b, c) = tuple;
-
-
 }
